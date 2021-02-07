@@ -423,11 +423,11 @@ MonoBehaviour:
   CharacterAnimationController: {fileID: 93084991}
   ButtonNo: 0
   characterHpViewer: {fileID: 414905540}
---- !u!114 &93084991 stripped
+--- !u!114 &93084991
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4109751413592409946, guid: daa5fe17eec27f24bbe3fd88c5545177,
-    type: 3}
-  m_PrefabInstance: {fileID: 93084987}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93084989}
   m_Enabled: 1
@@ -435,6 +435,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a05f91ee8389653449d7078d57eec408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharacterAnimator: {fileID: 1819267188}
+  CharacterRoot: {fileID: 1888158923}
+  AttackRoot: {fileID: 846721685}
+  GameMainManager: {fileID: 2046350613}
+  AnimationEnd: 0
+  characterType: 1
 --- !u!1 &191422736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,11 +3152,11 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2085913755}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1436193491 stripped
+--- !u!114 &1436193491
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8002492124693104803, guid: 2482e2b238a310d4398b02094a589118,
-    type: 3}
-  m_PrefabInstance: {fileID: 2085913755}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436193490}
   m_Enabled: 1
@@ -3158,6 +3164,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a05f91ee8389653449d7078d57eec408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharacterAnimator: {fileID: 1145605175}
+  CharacterRoot: {fileID: 1723306339}
+  AttackRoot: {fileID: 846721685}
+  GameMainManager: {fileID: 2046350613}
+  AnimationEnd: 0
+  characterType: 2
 --- !u!114 &1436193492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4740,14 +4752,14 @@ MonoBehaviour:
   CharacterAttack: 100
   IsEnemy: 1
   CharacterType: 2
-  CharacterAnimationController: {fileID: 2119739835}
+  CharacterAnimationController: {fileID: 0}
   ButtonNo: 0
   characterHpViewer: {fileID: 414905540}
---- !u!114 &2119739835 stripped
+--- !u!114 &2119739835
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8002492124693104803, guid: 2482e2b238a310d4398b02094a589118,
-    type: 3}
-  m_PrefabInstance: {fileID: 464747719}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119739833}
   m_Enabled: 1
@@ -4755,6 +4767,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a05f91ee8389653449d7078d57eec408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharacterAnimator: {fileID: 2119739839}
+  CharacterRoot: {fileID: 646667301}
+  AttackRoot: {fileID: 846721685}
+  GameMainManager: {fileID: 2046350613}
+  AnimationEnd: 0
+  characterType: 2
 --- !u!95 &2119739839 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4891436628638707686, guid: 2482e2b238a310d4398b02094a589118,
